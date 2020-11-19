@@ -1,5 +1,5 @@
 # Pricing Product Page
-Learning opportunity to create a product page using vanilla HTML and CSS
+Learning opportunity to create a product page using vanilla HTML and CSS.
 Final output can be found here: https://akhuu92.github.io/pricingProductPage/
 
 # Notes (What did I learn?)
