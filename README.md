@@ -1,4 +1,4 @@
-# pricingProductPage
+# Pricing Product Page
 Learning opportunity to create a product page using vanilla HTML and CSS
 
 # Notes (What did I learn?)
