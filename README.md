@@ -1,4 +1,5 @@
 # pricingProductPage
+Learning opportunity to create a product page using vanilla HTML and CSS
 
 # Notes (What did I learn?)
 Why does nav need a display of flex?
