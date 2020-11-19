@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    background-color: #1b1d22;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+h1, p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 45px;
+}
+
+#nav-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-items li {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    transition: 150ms ease-in;
+}
+
+#nav-items li:hover {
+    cursor: pointer;
+    color: rgb(255, 100, 39);
+}
+
+.buttons-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.base-button {
+    height: 90px;
+    width: 400px;
+    margin: 6px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.annually {
+    background-color: #c35500;
+    color: white;
+}
+
+.monthly {
+    background-color: rgba(56, 56, 56, 0.596);
+    color: rgb(138, 138, 138);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.base-card {
+    width: 325px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.411);
+    margin: 20px;
+}
+
+.card-header {
+    display: flex;
+    padding: 15px;
+}
+
+.header-title {
+    padding-left: 20px;
+}
+
+.header-title h1 {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+
+}
+
+.header-title small {
+    color: gray;
+    font-size: 15px;
+}
+
+.card-content ul {
+    list-style-type: none;
+    padding: 0px 25px;
+}
+
+.card-content ul li {
+    display: flex;
+}
+
+.card-content ul li span {
+    padding-left: 10px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .price {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.purchase-button {
+    width: 200px;
+    height: 55px;
+    background-color: #ff686b;
+    border-radius: 10px;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
